@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#navigation {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+    background-color: #1A1244;
+    border-bottom: 4px solid #401E63;
+
+}
+
+.nav-Logo >h2 {
+  color: white;
+  font-size: 30px;
+}    
+
+#navigation > ul {
+    display: flex;
+}
+
+#navigation > ul > li {
+ list-style-type: none;
+ margin: 10px 5px;
+}
+
+#navigation > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding:10px 20px;
+    transition: 0.5s
+
+    
+}
+#navigation > ul > li > a:hover{
+    color: red;
+    background-color: black;
+    border-radius: 5px;
+    
+    
+}
+
+/* Hero area code start here */
+
+.hero-area {
+    background-image: url('image/website\ banner.jpg');
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.searchBox-Icon-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBox-Icon-parent input {
+    
+    width:500px ;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 5px 20px;
+}
+.searchBox-Icon-parent i {
+    background-color: green;
+    color: red;
+    font-size: 25px;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-left: -10px;
+
+}
