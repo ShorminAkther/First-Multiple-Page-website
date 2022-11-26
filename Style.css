@@ -85,3 +85,41 @@
     margin-left: -10px;
 
 }
+
+/* main section code syart */
+Main {
+    background-color:#2D236A ;
+    padding: ;
+}
+
+.First-section {
+   width: 1100px;
+  
+   margin: auto;
+    padding: 50px 0;
+}
+
+.latest-video-parent {
+    display:flex;
+    justify-content: space-between;
+
+}
+.latest-video-text {
+    font-size: 25px;
+    color: #04aa6d;
+    font-weight: bold;
+}
+.Latest-pages {
+    color: #04aa6d;
+}
+
+.Latest-pages span {
+    color: black;
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 4px;
+    margin:0 10px;
+    border: 1px solid #80805b;
+    cursor: pointer;
+}
+
