@@ -90,6 +90,7 @@
  Main {
     background-color:#2D236A ;
     padding-top: 20px;
+    padding-bottom: 50px;
 }
 
  .First-section {
@@ -185,4 +186,69 @@
 .Previous-Next-Parent div a:first-child {
     background-color: #04aa6d;
     color: white;
+}
+
+/* Footer section code start */
+
+Footer {
+    background-color: #5f1e69 ;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+.footer-container {
+    width: 900px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    grid-gap: 50px;
+}
+
+.footer-1st-item h3 {
+    font-size:25px;
+    padding: 30px 0;
+}
+
+.footer-1st-item p:first-child {
+    margin: bottom 50px; ;
+}
+
+.footer-2nd-item h3 {
+    font-size: 25px;
+    padding: 30px 0;
+}
+
+.footer-2nd-item a {
+    text-decoration: none;
+    color: white;
+}
+.footer-2nd-item p {
+    margin-bottom: 10px;
+}
+
+.footer-3rd-item div {
+ font-size: 25px;
+ padding: 30px 0;
+
+}
+
+.footer-3rd-item div a {
+    text-decoration: none;
+    color: white;
+    margin-right:10px;
+    background-color:#1A1244 ;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.footer-3rd-item p {
+    margin-bottom: 10px;
+}
+
+.footer-3rd-item p:nth-child(3) {
+    margin-bottom: 60px;
+
 }
