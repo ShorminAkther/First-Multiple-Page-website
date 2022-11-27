@@ -151,3 +151,38 @@
     margin-top: 10px;
 }
 
+.Previous-Next-Parent {
+    margin-top: 100px;
+    display:flex;
+    justify-content: space-between;
+
+
+}
+.Previous-Next-Parent h3  a {
+    background-color: #04aa6d;
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition:0.5s;
+}
+
+.Previous-Next-Parent h3 a:hover{
+    background-color: #028354;
+}
+.Previous-Next-Parent a {
+    text-decoration: none;
+    color: white;
+}
+
+.Previous-Next-Parent div a {
+    margin: 0 10px;
+    background-color:antiquewhite ;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.Previous-Next-Parent div a:first-child {
+    background-color: #04aa6d;
+    color: white;
+}
